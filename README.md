@@ -11,7 +11,7 @@ You mabe need to download libaries if your IDE says so. If thats the case heres 
 
 After that you need a usb stick. The maximum capactity of the stick can be (I think) 32 Gigabyte. For refference I use a 16 Gig stick. The stick must be formated in FAT32 in order to be detected. You can store everything you want on the stick. The player will only use the wav files. <br>
 I also tested it with the 3.5mm audiojack on the board. You can try to use the pins A12(DAC0) and A13(DAC1), but I can't guaranty that it works, since I haven't tested it.<br><br>
-💥⚠️MASSIVE ATTENTION⚠️💥: Please only use speakers that have a amplifier inside or plugged in on an amp. If you dont do this your Arduino will break since it doesnt have a amp on the board. the only speakers that could work are headphone-speakers because of the resistance.
+💥⚠️MASSIVE ATTENTION⚠️💥: Please only use speakers that have an amplifier inside or plugged in on an amp. If you dont do this your Arduino will break since it doesnt have a amp on the board. the only speakers that could work are headphone-speakers because of the resistance.
 <br>
 <br>
 ## Commands 🔧
