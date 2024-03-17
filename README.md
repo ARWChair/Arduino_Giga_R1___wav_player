@@ -1,21 +1,21 @@
 # 🎧 Arduino_Giga_R1___wav_player 🎧
-The goal of this project is to have a minimalistic mp3-like player for the Arduino Giga R1 using files of the "wav" format. It is only compatible with a Arduino Giga R1 so keep that in mind
+The goal of this project is to have a minimalistic mp3-like player for the Arduino Giga R1 using files of the "wav" format. It is only compatible with a Arduino Giga R1 so keep that in mind.
 <br>
 <br>
 ## How to use ❓
-First you need your Arduino Giga R1 and download the file to copy on your Pc to compile it to your Giga.<br>
-After that you open the file in the Arduino IDE and compile it to your giga.⚠️ATTENTION⚠️ , if you compile everything on the Arduino will be gone. <br>
-You mabe need to download libaries if your IDE says so. If thats the case heres the downloadlink to the libaries that I use:
+First you need your Arduino Giga R1 and download the file onto your Pc to compile it to your Giga.<br>
+After that you open the file in the Arduino IDE, compile it to your giga.⚠️ATTENTION⚠️ If you compile, everything on the Arduino will be gone. <br>
+You maybe need to download libaries if your IDE says so. If thats the case here's the downloadlink to the libaries that I use:
 - https://reference.arduino.cc/reference/en/libraries/arduino_advancedanalog/
 - https://www.arduinolibraries.info/libraries/arduino_usb-host-mbed5<br>
 
-After that you need a usb stick. The maximum capactity of the stick can be (I think) 32 Gigabyte. For refference I use a 16 Gig stick. The stick must be formated in FAT32 in order to be detected. You can store everything you want on the stick. The player will only use the wav files. <br>
-I also tested it with the 3.5mm audiojack on the board. You can try to use the pins A12(DAC0) and A13(DAC1), but I can't guaranty that it works, since I haven't tested it.<br><br>
-💥⚠️MASSIVE ATTENTION⚠️💥: Please only use speakers that have an amplifier inside or plugged in on an amp. If you dont do this your Arduino will break since it doesnt have a amp on the board. the only speakers that could work are headphone-speakers because of the resistance.
+After that you need a usb stick. The maximum capactity of the stick can be (I think) 32 Gigabyte. For reference I use a 16 Gig stick. The stick must be formated in FAT32 in order to be detected. You can store everything you want on the stick. The player will only use the wav files. <br>
+I only tested it with the 3.5mm audiojack on the board. You can try to use the pins A12(DAC0) and A13(DAC1), but I can't guaranty that it will work, since I haven't tested it with.<br><br>
+💥⚠️MASSIVE ATTENTION⚠️💥: Please only use speakers that have an amplifier inside or plugged in on an amp. If you don't do this your Arduino will break since it doesn't have an amp on the board. the only speakers that could work without an amp are headphone-speakers because of the resistance.
 <br>
 <br>
 ## Commands 🔧
-If you have set up everything correctly with no compilation errors and no error on the "Serial monitor" you can use commands to modifyy the playback.<br>
+If you have set up everything correctly with no compilation errors and no error on the "Serial monitor" you can use commands to modify the playback.<br>
 Commands that currently are available:
 - help: Shows you all commands that can be used.
 - list: Lists all existing .wav files on the usb stick in PA_15.
@@ -33,7 +33,7 @@ Write me on discord (the.chair) since I am online there most of the day and isse
 <br>
 <br>
 ## Want to download or modify the file ❓
-Sure do what you want with it. You don't need to mention me or so. Use as you want, but I am not liable or responsible for any fixes after modification, but you can still ask me to help you if you dont know what what means.
+Sure, do what you want with it. You don't need to mention me or so. Use as you want, but I am not liable or responsible for any fixes after modification, but you can still ask me to help you if you dont know what what means.
 <br>
 <br>
 ## Having ideas or want to submit to this project ❓
