@@ -29,7 +29,7 @@ more will be added in future ⌛.
 <br>
 <br>
 ## Having issues 🚩
-Write me on discord (the.chair) since I am online there most of the day and isses will get fixed faster there. You can also leave a issue here on this repo, but I will check 2-3 time only a week, so keep that in mind.
+Write me on discord (the.chair) since I am online there most of the day and issues will get fixed faster there. You can also leave a issue here on this repo, but I will check 2-3 time only a week, so keep that in mind.
 <br>
 <br>
 ## Want to download or modify the file ❓
